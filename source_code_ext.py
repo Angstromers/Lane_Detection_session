@@ -71,7 +71,7 @@ def region_of_interest(canny):
 # combo_image = cv2.addWeighted(lane_image, 0.8, line_image, 1, 0)
 
 #
-cap = cv2.VideoCapture("test2.mp4")
+cap = cv2.VideoCapture("test3.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
     canny_image = canny(frame)
